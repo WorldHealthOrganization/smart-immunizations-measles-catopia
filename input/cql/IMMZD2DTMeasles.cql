@@ -1,6 +1,6 @@
 /*
  * Library: IMMZD2DTMeasles (IMMZ.D2.DT.Measles)
- * Rule: If the child or patient has not been given MCV1 (at 9 months) and MCV2 (between 15-18 months) vaccination 
+ * Rule: If the child or patient has not been given MCV1 (at 9 months) and MCV2 (>18 months) vaccination 
  * Trigger: Patient has never received measles vaccination
  */
 library IMMZD2DTMeasles
@@ -44,13 +44,13 @@ define "Schedule Due Date for MCV dose":
 define "Expected Due Date for MCV dose":
 	case 
 	//when "Needs Zero MCV Dose"
-	//	then Patient.birthDate + 6 months
+	//	then Patient.birthDate + 9 months
 	when "No MCV Doses Administered to Patient"
-		then if "High Transmission Setting" then Patient.birthDate + 9 months else Patient.birthDate + 12 months
+		then if "High Transmission Setting" then Patient.birthDate + 6 months else Patient.birthDate + 9 months
 	//when "Second MCV Dose Administered to Patient" is not null and "Needs Supplementary MCV Dose"
 	//	then "Date Second MCV Dose Administered to Patient" + 4 weeks
 	when "First MCV Dose Administered to Patient" is not null
-		then Patient.birthDate + 15 months
+		then Patient.birthDate + 18 months
 	else null
 	end
 
@@ -150,8 +150,8 @@ define "Needs Zero MCV Dose":
 	"No MCV Doses Administered to Patient" 
 	  and (
 			if "High Transmission Setting" 
-			then IMMZCom."Current Patient Age In Months" between 6 and 9 
-			else IMMZCom."Current Patient Age In Months" between 6 and 12
+			then IMMZCom."Current Patient Age In Months" between 9 and 18 
+			else IMMZCom."Current Patient Age In Months" between 9 and 18
 		)
 		and IMMZCom."Date of Latest Live Attenuated Vaccine" +4 weeks <= Now()
 		and 
@@ -177,9 +177,10 @@ define "Needs Supplementary MCV Dose":
 
 /**
  * @dataElement Zero MCV dose given to Patient
+
  */
 //define "Zero MCV Dose Administered to Patient":
-//	Last("MCV Doses Administered to Patient" I where I.occurrence between Patient.birthDate + 6 months and Patient.birthDate + 9 months)
+//	Last("MCV Doses Administered to Patient" I where I.occurrence between Patient.birthDate + 9 months and Patient.birthDate + 18 months)
 
 /**
  * @dataElement Date Zero MCV dose administered
@@ -192,8 +193,8 @@ define "Needs Supplementary MCV Dose":
  */
 define "First MCV Dose Administered to Patient":
 	if "High Transmission Setting"
-	then Last("MCV Doses Administered to Patient" I where I.occurrence after Patient.birthDate + 9 months)
-	else Last("MCV Doses Administered to Patient" I where I.occurrence after Patient.birthDate + 12 months)
+	then Last("MCV Doses Administered to Patient" I where I.occurrence after Patient.birthDate + 18 months)
+	//else Last("MCV Doses Administered to Patient" I where I.occurrence after Patient.birthDate + 18 months)
 /**
  * @dataElement Date first MCV dose administered
  */
@@ -207,7 +208,7 @@ define "Date First MCV Dose Administered to Patient":
 define "Second MCV Dose Administered to Patient":
   Last("MCV Doses Administered to Patient" I 
 		where I.occurrence after "Date First MCV Dose Administered to Patient" + 4 weeks 
-			and I.occurrence after Patient.birthDate + 15 months)
+			and I.occurrence after Patient.birthDate + 18 months)
 
 /**
  * @dataElement Date second MCV dose administered
@@ -254,7 +255,7 @@ define "Draft Medication Request ID for MCV dose":
 define "Should vaccinate patient for measles (Supplementary) because no doses":
 	IMMZCom."No MCV Doses Administered to Patient" and 
 	(
-		IMMZCom."Current Patient Age In Months" between 6 and 9 and
+		IMMZCom."Current Patient Age In Months" between 9 and 18 and
 		(
 			(
 				IMMZCom."HIV Status" in IMMZc."HIV status - HIV positive Choices" and
