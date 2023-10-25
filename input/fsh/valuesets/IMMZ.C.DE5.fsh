@@ -9,6 +9,6 @@ Description:  "ValueSet for Sex for IMMZ.C.DE5."
 * IMMZ.C#DE7 "Female"
 
 
-## Deleting Not specified and intersex as they are not relevant for the Kenya use case
-## IMMZ.C#DE8 "Biological sex not specified"
-##IMMZ.C#DE9 "Intersex"
+//Deleting Not specified and intersex as they are not relevant for the Kenya use case
+//IMMZ.C#DE8 "Biological sex not specified"
+//IMMZ.C#DE9 "Intersex"
