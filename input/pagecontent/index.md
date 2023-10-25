@@ -1,4 +1,4 @@
-This WHO Immunization Implementation Guide details how to use Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) for consistent digital representation of immunization services.
+This KENYA Immunization Implementation Guide details how to use Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) for consistent digital representation of immunization services.
 
 <div>
 <p> This implementation guide and set of artifacts are still undergoing development. </p>
@@ -7,7 +7,7 @@ This WHO Immunization Implementation Guide details how to use Health Level 7 (HL
 
 
 ### Summary 
-This implementation guide includes a machine-readable representation of WHO guidelines for immunization, as documented in the WHO Digital Adaptation Kit: SMART Guidelines for Immunizations (link forthcoming) and explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of immunization use cases by WHO Member States.
+This implementation guide includes a machine-readable representation of WHO guidelines for immunization, as documented in the kENYA Immunization Digital Adaptation Kit: SMART Guidelines for Immunizations (link forthcoming) and explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of immunization use cases by WHO Member States.
 
 The guide is part of the [WHO SMART Guidelines approach](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines) to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology based on the WHO Immunization Digital Adaptation Kit (link forthcoming). 
 
@@ -50,3 +50,4 @@ This guide assumes use of the following resources:
 
 ### Disclaimer
 The specification herewith documented is a demo working specification and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency and the official publication supersedes this draft. No liability can be inferred from the use or misuse of this specification or its consequences.
+This has been done by the AMAZING, Nelly Nyaga
