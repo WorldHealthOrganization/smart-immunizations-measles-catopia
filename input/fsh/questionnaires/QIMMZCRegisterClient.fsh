@@ -33,9 +33,9 @@ Usage: #definition
     * code[+] = $LNC#45392-8 "First name"
     * code[+] = $SCT#184095009 "Patient forename (observable entity)"
 
- * insert Question(MiddleName, Middle name,string,false,false)
+  * insert Question(MiddleName, Middle name,string,false,false)
   * item[=]
-    * code[+] = IMMZ.C#DE4tttttttttttttttttt
+    * code[+] = IMMZ.C#DE3.1
     
   * insert Question(familyName, Family name,string,false,false)
   * item[=]
@@ -64,30 +64,31 @@ Usage: #definition
   * item[=]
     * code[+] = IMMZ.C#DE16
 
- * insert Question(MiddleName, Middle Name,string,false,false)
+  * insert Question(middleName, Middle Name,string,false,false)
   * item[=]
-    * code[+] = IMMZ.C#ttttttttt
+    * code[+] = IMMZ.C#DE16.1
 
   * insert Question(familyName, Last name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C#DE17
 
-* insert Question(caregiver, Father/gardian,group,true,false)
+* insert Question(fcaregiver, Father/gardian,group,true,false)
 * item[=]
-  * code[+] = IMMZ.C#sssssss
+  * code[+] = IMMZ.C#DE14.f
   * code[+] = $SCT#184140000 "Caregiver details (observable entity)"
 
   * insert Question(firstName, First or given name,string,false,false)
   * item[=]
-    * code[+] = IMMZ.C#DE16
+    * code[+] = IMMZ.C#DE16.f
 
- * insert Question(middlename, Middle name,string,false,false)
+  * insert Question(middlename, Middle name,string,false,false)
   * item[=]
-    * code[+] = IMMZ.C#tttttttttttttttt
+    * code[+] = IMMZ.C#DE16.1.f
 
   * insert Question(familyName, Last name,string,false,false)
   * item[=]
-    * code[+] = IMMZ.C#DE17
+    * code[+] = IMMZ.C#DE17.f
+    
 * insert Question(phone, Client Phone number,string,true,false)
 * item[=]
   * code[+] = IMMZ.C#DE18
@@ -100,18 +101,18 @@ Usage: #definition
   * code[+] = $LNC#56799-0 "Address"
   * code[+] = $SCT#184097001 "Patient address (observable entity)"
 
- * insert Question(County, County,choice,false,false)
-   * item[=]
-   * code[+] = IMMZ.C#DE19.1
- * insert Question(Subcounty, Subcounty,choice,false,false)
-   * item[=]
-   * code[+] = IMMZ.C#DE19.2
- * insert Question(Ward, Ward,choice,false,false)
-   * item[=]
-   * code[+] = IMMZ.C#DE19.3
- * insert Question(CHU,CHU,choice,false,false)
-   * item[=]
-   * code[+] = IMMZ.C#DE19.3
+  * insert Question(County, County,choice,false,false)
+    * item[=]
+    * code[+] = IMMZ.C#DE19.1
+  * insert Question(Subcounty, Subcounty,choice,false,false)
+    * item[=]
+    * code[+] = IMMZ.C#DE19.2
+  * insert Question(Ward, Ward,choice,false,false)
+    * item[=]
+    * code[+] = IMMZ.C#DE19.3
+  * insert Question(CHU,CHU,choice,false,false)
+    * item[=]
+    * code[+] = IMMZ.C#DE19.3
 
 
 * insert Question(healthWorker, Health Worker,boolean,true,false)
