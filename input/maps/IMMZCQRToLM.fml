@@ -46,9 +46,12 @@ group QRespToIMMZC ( source qr : QResp, target immzc : IMMZC) {
 
 group NameToIMMZC( source name, target immzc) {
   name.item as item then {
-
-    item.answer first as answer where item.linkId = 'fullName' then {
-      answer.value as content -> immzc.name = content "SetFullName";
+    item.answer first as answer where item.linkId = 'firstName' then {
+      answer.value as firstName -> firstName then {
+        item.answer first as answer2 where item.linkId = 'surname' then {
+        answer2.value as surname -> immzc.name = append(firstName,'',surname) "set name";
+        } "set";
+      } "set";
     } "FirstAnswerForFullName";
 
 //    item.answer first as answer where item.linkId = 'firstName' then {
