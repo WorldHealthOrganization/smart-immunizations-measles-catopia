@@ -1,0 +1,294 @@
+﻿SMART : Validation Results
+=========================================
+
+err = 56, warn = 54, info = 14
+IG Publisher Version: 1.4.16
+Generated Tue Oct 17 17:22:00 UTC 2023. FHIR version 4.0.1 for who.fhir.smart-immunizations-measles#0.1.0 (canonical = http://smart.who.int/ig/smart-immunizations-measles)
+ Build Errors : 11 / 30 / 0
+ /github/workspace/fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesCIMR : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesEval : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesMR : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ActorDefinition-CommunityHealthWorker : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ActorDefinition-EPIManager : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ActorDefinition-HealthWorker : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-ICD11 : 0 / 2 / 3
+ /github/workspace/fsh-generated/resources/CodeSystem-IMMZ-C : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-IMMZ-D1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-IMMZ.D4 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-VaccineProducts : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ConceptMap-IMMZ-D1.ConceptMap : 0 / 94 / 1
+ /github/workspace/fsh-generated/resources/ConceptMap-IMMZ.C.ConceptMap : 0 / 33 / 1
+ /github/workspace/fsh-generated/resources/ConceptMap-IMMZ.D4.ConceptMap : 8 / 26 / 1
+ /github/workspace/fsh-generated/resources/ConceptMap-IMMZCSexToAdministrativeGender : 0 / 8 / 1
+ /github/workspace/fsh-generated/resources/Immunization-Immunization1 : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-immunizations-measles : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/Measure-IMMZIND05 : 1 / 1 / 2
+ /github/workspace/fsh-generated/resources/Measure-IMMZIND40 : 1 / 1 / 2
+ /github/workspace/fsh-generated/resources/Medication-Vaccine-MSDMMRVaxPro : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Medication-Vaccine-SIIMeasles : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationRequest-VaccineProposal1 : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-P123456 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/PlanDefinition-IMMZD2DTMeasles : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/PlanDefinition-IMMZD2DTMeaslesCI : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/PlanDefinition-IMMZDTUmbrella : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-IMMZCRegisterClient : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-IMMZD1ClientHistory : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-IMMZD4CheckContraindications : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.2 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.3 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.4 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-IMMZCQuestionnaireResponse1 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Requirements-immz-e-fxnreq : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-IMMZCRegisterClient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-IMMZD1clienthistorymeasles : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-IMMZD4CheckContraindications : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SGImmunization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SGMedicationClassification : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SGVaccineProduct : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SGVaccineProposal : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-SGVaccineRequest : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-sg-ext-administeredProduct : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-C-DE5 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-D1.DE10 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-D1.DE35 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-D1.DE52 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-D1.DE56 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-D1.DE61 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-D1.DE65 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-D1.DE68 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-D1.DE73 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-D1.DE84 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ-D1.DE87 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-IMMZ.D4.DE161 : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-VSMeaslesVaccineProducts : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-VaccineTypes : 0 / 1 / 1
+ /github/workspace/input/maps/IMMZCLMToPatient : 0 / 1 / 1
+ /github/workspace/input/maps/IMMZCQRToLM : 0 / 4 / 1
+ /github/workspace/input/maps/IMMZCQRToPatient : 2 / 0 / 1
+ /github/workspace/input/maps/IMMZD4LMToResources : 0 / 0 / 1
+ /github/workspace/input/maps/IMMZD4QRToLM : 0 / 0 / 1
+ /github/workspace/input/maps/IMMZD4QRToResources : 2 / 0 / 1
+ /github/workspace/input/resources/device/cqf-tooling : 0 / 0 / 1
+ /github/workspace/input/resources/library/FHIRCommon : 2 / 0 / 1
+ /github/workspace/input/resources/library/FHIRHelpers : 3 / 0 / 1
+ /github/workspace/input/resources/library/IMMZCommon : 6 / 0 / 5
+ /github/workspace/input/resources/library/IMMZCommonIzDataElements : 2 / 0 / 1
+ /github/workspace/input/resources/library/IMMZConcepts : 5 / 0 / 1
+ /github/workspace/input/resources/library/IMMZConfig : 2 / 0 / 1
+ /github/workspace/input/resources/library/IMMZD2DTMeasles : 2 / 0 / 5
+ /github/workspace/input/resources/library/IMMZDT08 : 0 / 0 / 1
+ /github/workspace/input/resources/library/IMMZINDMeasles : 3 / 0 / 1
+ /github/workspace/input/resources/library/IMMZIndicatorCommon : 2 / 0 / 1
+ /github/workspace/input/resources/library/IMMZVaccineLibrary : 2 / 0 / 1
+ /github/workspace/input/resources/library/WHOCommon : 2 / 0 / 1
+ /github/workspace/input/resources/library/WHOConcepts : 3 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/FHIRCommon.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/FHIRHelpers.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/IMMZCommon.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/IMMZCommonIzDataElements.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/IMMZConcepts.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/IMMZConfig.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/IMMZD2DTMeasles.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/IMMZDT08.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/IMMZINDMeasles.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/IMMZIndicatorCommon.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/IMMZVaccineLibrary.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/WHOCommon.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/WHOConcepts.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZCLMToPatient.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureMap/IMMZCLMToPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZCQRToLM.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureMap/IMMZCQRToLM.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZCQRToPatient.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureMap/IMMZCQRToPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZD4LMToResources.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureMap/IMMZD4LMToResources.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZD4QRToLM.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureMap/IMMZD4QRToLM.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureMap/IMMZD4QRToResources.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureMap/IMMZD4QRToResources.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/Example.IMMZ.D4.QuestionnaireResponse.4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/VaccineProposal1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/P123456.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Device/cqf-tooling.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-IMMZD4CheckContraindications-form.html: Unable to read attribute on <div> at line 280 column 71
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-IMMZCRegisterClient-form.html: Unable to read attribute on <div> at line 280 column 71
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-IMMZD1ClientHistory-form.html: Unable to read attribute on <div> at line 280 column 71
+ERROR: /github/workspace/output/Immunization-Immunization1.html#/html/body/div/div/div/div/div/div/p/a at Line 276, column 972: The link 'Patient/Patient1' for "Patient/Patient1" cannot be resolved
+ERROR: /github/workspace/output/MedicationRequest-VaccineProposal1.html#/html/body/div/div/div/div/div/div/p/a at Line 276, column 761: The link 'Patient/patient1' for "Patient/patient1" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesCIMR.json ==
+== fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesEval.json ==
+== fsh-generated/resources/ActivityDefinition-IMMZD2DTMeaslesMR.json ==
+== fsh-generated/resources/ActorDefinition-CommunityHealthWorker.json ==
+WARNING: ActorDefinition/CommunityHealthWorker: ActorDefinition: Constraint failed: cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ActorDefinition)
+WARNING: ActorDefinition/CommunityHealthWorker: ActorDefinition.meta.profile[0]: Profile reference 'http://worldhealthorganization.github.io/smart-base/StructureDefinition/SGPersona' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ActorDefinition-EPIManager.json ==
+WARNING: ActorDefinition/EPIManager: ActorDefinition: Constraint failed: cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (defined in http://hl7.org/fhir/StructureDefinition/ActorDefinition)
+WARNING: ActorDefinition/EPIManager: ActorDefinition.meta.profile[0]: Profile reference 'http://worldhealthorganization.github.io/smart-base/StructureDefinition/SGPersona' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ActorDefinition-HealthWorker.json ==
+WARNING: ActorDefinition/HealthWorker: ActorDefinition.meta.profile[0]: Profile reference 'http://worldhealthorganization.github.io/smart-base/StructureDefinition/SGPersona' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/CodeSystem-ICD11.json ==
+INFORMATION: CodeSystem/ICD11: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+INFORMATION: CodeSystem/ICD11: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/ICD11: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/ICD11: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-IMMZ-C.json ==
+== fsh-generated/resources/CodeSystem-IMMZ-D1.json ==
+== fsh-generated/resources/CodeSystem-IMMZ.D4.json ==
+== fsh-generated/resources/CodeSystem-VaccineProducts.json ==
+INFORMATION: CodeSystem/VaccineProducts: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/VaccineProducts: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/VaccineProducts: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ConceptMap-IMMZ-D1.ConceptMap.json ==
+== fsh-generated/resources/ConceptMap-IMMZ.C.ConceptMap.json ==
+== fsh-generated/resources/ConceptMap-IMMZ.D4.ConceptMap.json ==
+ERROR: ConceptMap/IMMZ.D4.ConceptMap: ConceptMap.group[0].element[0].target[0].code: The target code 'QA41' is not valid in the code system http://id.who.int/icd11/mms|0.1.0
+ERROR: ConceptMap/IMMZ.D4.ConceptMap: ConceptMap.group[0].element[2].target[0].code: The target code 'QC44.0' is not valid in the code system http://id.who.int/icd11/mms|0.1.0
+ERROR: ConceptMap/IMMZ.D4.ConceptMap: ConceptMap.group[0].element[3].target[0].code: The target code 'QC44.2' is not valid in the code system http://id.who.int/icd11/mms|0.1.0
+ERROR: ConceptMap/IMMZ.D4.ConceptMap: ConceptMap.group[0].element[4].target[0].code: The target code '1C62.1' is not valid in the code system http://id.who.int/icd11/mms|0.1.0
+ERROR: ConceptMap/IMMZ.D4.ConceptMap: ConceptMap.group[1].element[0].code: The source code 'QA41' is not valid in the code system http://id.who.int/icd11/mms|0.1.0
+ERROR: ConceptMap/IMMZ.D4.ConceptMap: ConceptMap.group[1].element[2].code: The source code 'QC44.0' is not valid in the code system http://id.who.int/icd11/mms|0.1.0
+ERROR: ConceptMap/IMMZ.D4.ConceptMap: ConceptMap.group[1].element[3].code: The source code 'QC44.2' is not valid in the code system http://id.who.int/icd11/mms|0.1.0
+ERROR: ConceptMap/IMMZ.D4.ConceptMap: ConceptMap.group[1].element[4].code: The source code '1C62.1' is not valid in the code system http://id.who.int/icd11/mms|0.1.0
+== fsh-generated/resources/ConceptMap-IMMZCSexToAdministrativeGender.json ==
+== fsh-generated/resources/Immunization-Immunization1.json ==
+ERROR: Immunization/Immunization1: Immunization.patient: Unable to resolve resource with reference 'Patient/Patient1'
+== fsh-generated/resources/ImplementationGuide-who.fhir.smart-immunizations-measles.json ==
+WARNING: ImplementationGuide/who.fhir.smart-immunizations-measles: ImplementationGuide.meta.profile[0]: Profile reference 'http://smart.who.int/ig/smart-base/ImplementationGuide-SGImplementationGuide' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Measure-IMMZIND05.json ==
+INFORMATION: Measure/IMMZIND05: Measure: The Library http://fhir.org/guides/who/smart-immunization/Library/IMMZINDMeasles could not be resolved, so expression validation may not be correct
+ERROR: Measure/IMMZIND05: Measure.group[0].stratifier[0].criteria: No CQL Libraries found on this Measure
+WARNING: Measure/IMMZIND05: Measure: Published measures SHOULD conform to the ShareableMeasure profile, which says that the element Measure.title is mandatory, but it is not present
+== fsh-generated/resources/Measure-IMMZIND40.json ==
+INFORMATION: Measure/IMMZIND40: Measure: The Library http://fhir.org/guides/who/smart-immunization/Library/IMMZINDMeasles could not be resolved, so expression validation may not be correct
+ERROR: Measure/IMMZIND40: Measure.group[0].stratifier[0].criteria: No CQL Libraries found on this Measure
+WARNING: Measure/IMMZIND40: Measure: Published measures SHOULD conform to the ShareableMeasure profile, which says that the element Measure.title is mandatory, but it is not present
+== fsh-generated/resources/Medication-Vaccine-MSDMMRVaxPro.json ==
+== fsh-generated/resources/Medication-Vaccine-SIIMeasles.json ==
+== fsh-generated/resources/MedicationRequest-VaccineProposal1.json ==
+ERROR: MedicationRequest/VaccineProposal1: MedicationRequest.subject: Unable to resolve resource with reference 'Patient/patient1'
+== fsh-generated/resources/Patient-P123456.json ==
+== fsh-generated/resources/PlanDefinition-IMMZD2DTMeasles.json ==
+== fsh-generated/resources/PlanDefinition-IMMZD2DTMeaslesCI.json ==
+WARNING: PlanDefinition/IMMZD2DTMeaslesCI: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+== fsh-generated/resources/PlanDefinition-IMMZDTUmbrella.json ==
+== fsh-generated/resources/Questionnaire-Questionnaire-IMMZCRegisterClient.json ==
+== fsh-generated/resources/Questionnaire-Questionnaire-IMMZD1ClientHistory.json ==
+== fsh-generated/resources/Questionnaire-Questionnaire-IMMZD4CheckContraindications.json ==
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.1.json ==
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.2.json ==
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.3.json ==
+== fsh-generated/resources/QuestionnaireResponse-Example.IMMZ.D4.QuestionnaireResponse.4.json ==
+== fsh-generated/resources/QuestionnaireResponse-IMMZCQuestionnaireResponse1.json ==
+INFORMATION: QuestionnaireResponse/IMMZCQuestionnaireResponse1: QuestionnaireResponse.item[6].answer[0]: Cannot validate options because no option or options are provided
+== fsh-generated/resources/Requirements-immz-e-fxnreq.json ==
+== fsh-generated/resources/StructureDefinition-IMMZCRegisterClient.json ==
+== fsh-generated/resources/StructureDefinition-IMMZD1clienthistorymeasles.json ==
+== fsh-generated/resources/StructureDefinition-IMMZD4CheckContraindications.json ==
+== fsh-generated/resources/StructureDefinition-SGImmunization.json ==
+== fsh-generated/resources/StructureDefinition-SGMedicationClassification.json ==
+WARNING: StructureDefinition/SGMedicationClassification: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-SGVaccineProduct.json ==
+== fsh-generated/resources/StructureDefinition-SGVaccineProposal.json ==
+== fsh-generated/resources/StructureDefinition-SGVaccineRequest.json ==
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/ig/smart-immunizations-measles/StructureDefinition/SGVaccineRequest'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-sg-ext-administeredProduct.json ==
+WARNING: StructureDefinition/sg-ext-administeredProduct: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/ValueSet-IMMZ-C-DE5.json ==
+== fsh-generated/resources/ValueSet-IMMZ-D1.DE10.json ==
+== fsh-generated/resources/ValueSet-IMMZ-D1.DE35.json ==
+== fsh-generated/resources/ValueSet-IMMZ-D1.DE52.json ==
+== fsh-generated/resources/ValueSet-IMMZ-D1.DE56.json ==
+== fsh-generated/resources/ValueSet-IMMZ-D1.DE61.json ==
+== fsh-generated/resources/ValueSet-IMMZ-D1.DE65.json ==
+== fsh-generated/resources/ValueSet-IMMZ-D1.DE68.json ==
+== fsh-generated/resources/ValueSet-IMMZ-D1.DE73.json ==
+== fsh-generated/resources/ValueSet-IMMZ-D1.DE84.json ==
+== fsh-generated/resources/ValueSet-IMMZ-D1.DE87.json ==
+== fsh-generated/resources/ValueSet-IMMZ.D4.DE161.json ==
+WARNING: ValueSet/IMMZ.D4.DE161: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-VSMeaslesVaccineProducts.json ==
+WARNING: ValueSet/VSMeaslesVaccineProducts: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-VaccineTypes.json ==
+WARNING: ValueSet/VaccineTypes: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== input/maps/IMMZCLMToPatient.fml ==
+WARNING: StructureMap/IMMZCLMToPatient: StructureMap.group[0].rule[4].dependent[0]: The group NameToHumanName has already been used with different parameters, so the type checking may be incorrect (other = [source IMMZCRegisterClient name, target HumanName hname]; this = [source http://smart.who.int/ig/smart-immunizations-measles/StructureDefinition/IMMZCRegisterClient#IMMZCRegisterClient.caregiver name, target HumanName hname])
+== input/maps/IMMZCQRToLM.fml ==
+WARNING: StructureMap/IMMZCQRToLM: StructureMap.group[0].rule[0].rule[2].dependent[0]: The group NameToIMMZC has already been used with different parameters, so the type checking may be incorrect (other = [source http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item name, target IMMZCRegisterClient immzc]; this = [source http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item name, target BackboneElement immzc])
+WARNING: StructureMap/IMMZCQRToLM: StructureMap.group[0].rule[0].rule[3].rule[0].rule[0].source[0]: The target path coding.code refers to the path QuestionnaireResponse.item.answer.value[x].code which could be a reference to multiple elements (Coding.code, Quantity.code). No further checking can be performed
+WARNING: StructureMap/IMMZCQRToLM: StructureMap.group[0].rule[0].rule[5].dependent[0]: The group NameToIMMZC has already been used with different parameters, so the type checking may be incorrect (other = [source http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item name, target IMMZCRegisterClient immzc]; this = [source http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item.answer name, target BackboneElement immzc])
+WARNING: StructureMap/IMMZCQRToLM: StructureMap.group[0].rule[0].rule[7].rule[0].rule[1].source[0]: The target path coding.display refers to the path QuestionnaireResponse.item.answer.value[x].display which could be a reference to multiple elements (Coding.display, Reference.display). No further checking can be performed
+== input/maps/IMMZCQRToPatient.fml ==
+ERROR: StructureMap/IMMZCQRToPatient: StructureMap.group[0].rule[0].rule[0].dependent[0].variable[1]: The target parameter 'immzc'  was not found
+ERROR: StructureMap/IMMZCQRToPatient: StructureMap.group[0].rule[0].rule[1].dependent[0].variable[0]: The source parameter 'immzc'  was not found
+== input/maps/IMMZD4LMToResources.fml ==
+== input/maps/IMMZD4QRToLM.fml ==
+== input/maps/IMMZD4QRToResources.fml ==
+ERROR: StructureMap/IMMZD4QRToResources: StructureMap.group[0].rule[0].rule[0].dependent[0].variable[1]: The target parameter 'immz'  was not found
+ERROR: StructureMap/IMMZD4QRToResources: StructureMap.group[0].rule[0].rule[1].dependent[0].variable[0]: The source parameter 'immz'  was not found
+== input/resources/device/cqf-tooling.json ==
+== input/resources/library/FHIRCommon.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/FHIRCommon'): Conformance resource /github/workspace/input/resources/library/FHIRCommon.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRCommon) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/FHIRCommon)
+ERROR: /github/workspace/input/resources/library/FHIRCommon: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRCommon vs http://smart.who.int/ig/smart-immunizations/Library/FHIRCommon
+== input/resources/library/FHIRHelpers.json ==
+ERROR: Library.where(url = 'http://hl7.org/fhir/Library/FHIRHelpers'): Conformance resource /github/workspace/input/resources/library/FHIRHelpers.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRHelpers) does not match the URL (http://hl7.org/fhir/Library/FHIRHelpers)
+ERROR: Library/FHIRHelpers: Library: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: /github/workspace/input/resources/library/FHIRHelpers: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/FHIRHelpers vs http://hl7.org/fhir/Library/FHIRHelpers
+== input/resources/library/IMMZCommon.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/IMMZCommon'): Conformance resource /github/workspace/input/resources/library/IMMZCommon.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZCommon) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/IMMZCommon)
+ERROR: Library/IMMZCommon: Library.parameter[2]: ParameterDefinition.type: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ParameterDefinition|4.0.1)
+ERROR: Library/IMMZCommon: Library.parameter[25]: ParameterDefinition.type: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ParameterDefinition|4.0.1)
+ERROR: Library/IMMZCommon: Library.dataRequirement[2].codeFilter[0].code[0]: Wrong Display Name 'Pregnancy outcome' for http://loinc.org#11640-0 - should be one of 43 choices: '[#] Births total', 'Births.total', '个数' (zh-CN), '数量' (zh-CN), '数量或计数（非负整数）' (zh-CN), '计数 产科 产科.超声' (zh-CN), '产科.超声.印象与测量指标' (zh-CN), '产科学.超声' (zh-CN), '产科学.超声.印象与测量指标' (zh-CN), '产科学检查与测量指标.超声.印象与测量指标' (zh-CN), '产科学超声印象与测量指标 产科学 全体数量 全部 共计 医疗服务对象' (zh-CN), '客户' (zh-CN), '病人' (zh-CN), '病患' (zh-CN), '病号' (zh-CN), '超系统 - 病人 可用数量表示的' (zh-CN), '定量性' (zh-CN), '数值型' (zh-CN), '数量型' (zh-CN), '连续数值型标尺 总 总和 总数 总量 总额 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 汇总 生产.总数' (zh-CN), '生产总数' (zh-CN), '生产总计' (zh-CN), 'Number' (pt-BR), 'Count' (pt-BR), 'Cnt' (pt-BR), 'Point in time' (pt-BR), 'Random' (pt-BR), 'Quantitative' (pt-BR), 'QNT' (pt-BR), 'Quant' (pt-BR), 'Quan' (pt-BR), 'Tot' (pt-BR), 'Totl' (pt-BR), 'OBSTERICAL.ULTRASOUND' (pt-BR), 'Obstetrical' (pt-BR), 'Obstetrics' (pt-BR), 'Ecografia ostetrica Numero (conta) paziente Punto nel tempo (episodio)' (it-IT), 'Анамнестические сведения' (ru-RU), 'Сообщенная третьим лицом информация Количественный Количество Точка во времени' (ru-RU) or 'Момент' (ru-RU) (for the language(s) '--') (from Tx-Server) for 'http://loinc.org#11640-0'
+ERROR: Library/IMMZCommon: Library.dataRequirement[3].codeFilter[0].code[0]: Wrong Display Name 'Preterm' for http://loinc.org#11637-6 - should be one of 47 choices: '[#] Births.preterm', 'Births.preterm', '个数' (zh-CN), '数量' (zh-CN), '数量或计数（非负整数）' (zh-CN), '计数 产科 产科.超声' (zh-CN), '产科.超声.印象与测量指标' (zh-CN), '产科学.超声' (zh-CN), '产科学.超声.印象与测量指标' (zh-CN), '产科学检查与测量指标.超声.印象与测量指标' (zh-CN), '产科学超声印象与测量指标 产科学 医疗服务对象' (zh-CN), '客户' (zh-CN), '病人' (zh-CN), '病患' (zh-CN), '病号' (zh-CN), '超系统 - 病人 可用数量表示的' (zh-CN), '定量性' (zh-CN), '数值型' (zh-CN), '数量型' (zh-CN), '连续数值型标尺 早产' (zh-CN), '生产.在完整怀孕期末的分娩时间之前' (zh-CN), '生产.提前' (zh-CN), '生产.提早' (zh-CN), '生产.早产' (zh-CN), '生产.足月妊娠之前' (zh-CN), '生产.预产期之前 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间' (zh-CN), 'Premature births' (pt-BR), 'Number' (pt-BR), 'Count' (pt-BR), 'Cnt' (pt-BR), 'Point in time' (pt-BR), 'Random' (pt-BR), 'Quantitative' (pt-BR), 'QNT' (pt-BR), 'Quant' (pt-BR), 'Quan' (pt-BR), 'OBSTERICAL.ULTRASOUND' (pt-BR), 'Obstetrical' (pt-BR), 'Obstetrics' (pt-BR), 'Ecografia ostetrica Numero (conta) paziente Punto nel tempo (episodio)' (it-IT), 'Анамнестические сведения' (ru-RU), 'Сообщенная третьим лицом информация Количественный Количество Точка во времени' (ru-RU), 'Момент' (ru-RU) or 'Naissance.prématurée' (fr-BE) (for the language(s) '--') (from Tx-Server) for 'http://loinc.org#11637-6'
+INFORMATION: Library/IMMZCommon: Library.dataRequirement[8].codeFilter[0].code[0]: Code System URI 'http://smart.who.int/ig/smart-immunizations/CodeSystem/IMMZ.D4' is unknown so the code cannot be validated
+INFORMATION: Library/IMMZCommon: Library.dataRequirement[9].codeFilter[0].code[0]: Code System URI 'http://smart.who.int/ig/smart-immunizations/CodeSystem/IMMZ.D4' is unknown so the code cannot be validated
+INFORMATION: Library/IMMZCommon: Library.dataRequirement[10].codeFilter[0].code[0]: Code System URI 'http://smart.who.int/ig/smart-immunizations/CodeSystem/IMMZ.D4' is unknown so the code cannot be validated
+INFORMATION: Library/IMMZCommon: Library.dataRequirement[11].codeFilter[0].code[0]: Code System URI 'http://smart.who.int/ig/smart-immunizations/CodeSystem/IMMZ.D4' is unknown so the code cannot be validated
+ERROR: /github/workspace/input/resources/library/IMMZCommon: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZCommon vs http://smart.who.int/ig/smart-immunizations/Library/IMMZCommon
+== input/resources/library/IMMZCommonIzDataElements.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/IMMZCommonIzDataElements'): Conformance resource /github/workspace/input/resources/library/IMMZCommonIzDataElements.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZCommonIzDataElements) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/IMMZCommonIzDataElements)
+ERROR: /github/workspace/input/resources/library/IMMZCommonIzDataElements: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZCommonIzDataElements vs http://smart.who.int/ig/smart-immunizations/Library/IMMZCommonIzDataElements
+== input/resources/library/IMMZConcepts.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/IMMZConcepts'): Conformance resource /github/workspace/input/resources/library/IMMZConcepts.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConcepts) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/IMMZConcepts)
+ERROR: Library/IMMZConcepts: Library.relatedArtifact[4].resource: Canonical URL 'http://hl7.org/fhir/sid/ciel' does not resolve
+ERROR: Library/IMMZConcepts: Library.relatedArtifact[5].resource: Canonical URL 'http://hl7.org/fhir/sid/icd-11' does not resolve
+ERROR: Library/IMMZConcepts: Library.relatedArtifact[12].resource: Canonical URL 'http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips' does not resolve
+ERROR: /github/workspace/input/resources/library/IMMZConcepts: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConcepts vs http://smart.who.int/ig/smart-immunizations/Library/IMMZConcepts
+== input/resources/library/IMMZConfig.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/IMMZConfig'): Conformance resource /github/workspace/input/resources/library/IMMZConfig.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConfig) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/IMMZConfig)
+ERROR: /github/workspace/input/resources/library/IMMZConfig: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZConfig vs http://smart.who.int/ig/smart-immunizations/Library/IMMZConfig
+== input/resources/library/IMMZD2DTMeasles.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/IMMZD2DTMeasles'): Conformance resource /github/workspace/input/resources/library/IMMZD2DTMeasles.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZD2DTMeasles) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/IMMZD2DTMeasles)
+INFORMATION: Library/IMMZD2DTMeasles: Library.dataRequirement[7].codeFilter[0].code[0]: Code System URI 'http://smart.who.int/ig/smart-immunizations/CodeSystem/IMMZ.D4' is unknown so the code cannot be validated
+INFORMATION: Library/IMMZD2DTMeasles: Library.dataRequirement[8].codeFilter[0].code[0]: Code System URI 'http://smart.who.int/ig/smart-immunizations/CodeSystem/IMMZ.D4' is unknown so the code cannot be validated
+INFORMATION: Library/IMMZD2DTMeasles: Library.dataRequirement[9].codeFilter[0].code[0]: Code System URI 'http://smart.who.int/ig/smart-immunizations/CodeSystem/IMMZ.D4' is unknown so the code cannot be validated
+INFORMATION: Library/IMMZD2DTMeasles: Library.dataRequirement[10].codeFilter[0].code[0]: Code System URI 'http://smart.who.int/ig/smart-immunizations/CodeSystem/IMMZ.D4' is unknown so the code cannot be validated
+ERROR: /github/workspace/input/resources/library/IMMZD2DTMeasles: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZD2DTMeasles vs http://smart.who.int/ig/smart-immunizations/Library/IMMZD2DTMeasles
+== input/resources/library/IMMZDT08.json ==
+== input/resources/library/IMMZINDMeasles.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/IMMZINDMeasles'): Conformance resource /github/workspace/input/resources/library/IMMZINDMeasles.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZINDMeasles) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/IMMZINDMeasles)
+ERROR: Library/IMMZINDMeasles: Library: Library.type: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/Library|4.0.1)
+ERROR: /github/workspace/input/resources/library/IMMZINDMeasles: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZINDMeasles vs http://smart.who.int/ig/smart-immunizations/Library/IMMZINDMeasles
+== input/resources/library/IMMZIndicatorCommon.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/IMMZIndicatorCommon'): Conformance resource /github/workspace/input/resources/library/IMMZIndicatorCommon.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZIndicatorCommon) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/IMMZIndicatorCommon)
+ERROR: /github/workspace/input/resources/library/IMMZIndicatorCommon: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZIndicatorCommon vs http://smart.who.int/ig/smart-immunizations/Library/IMMZIndicatorCommon
+== input/resources/library/IMMZVaccineLibrary.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/IMMZVaccineLibrary'): Conformance resource /github/workspace/input/resources/library/IMMZVaccineLibrary.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZVaccineLibrary) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/IMMZVaccineLibrary)
+ERROR: /github/workspace/input/resources/library/IMMZVaccineLibrary: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/IMMZVaccineLibrary vs http://smart.who.int/ig/smart-immunizations/Library/IMMZVaccineLibrary
+== input/resources/library/WHOCommon.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/WHOCommon'): Conformance resource /github/workspace/input/resources/library/WHOCommon.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/WHOCommon) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/WHOCommon)
+ERROR: /github/workspace/input/resources/library/WHOCommon: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/WHOCommon vs http://smart.who.int/ig/smart-immunizations/Library/WHOCommon
+== input/resources/library/WHOConcepts.json ==
+ERROR: Library.where(url = 'http://smart.who.int/ig/smart-immunizations/Library/WHOConcepts'): Conformance resource /github/workspace/input/resources/library/WHOConcepts.json - the canonical URL (http://smart.who.int/ig/smart-immunizations-measles/Library/WHOConcepts) does not match the URL (http://smart.who.int/ig/smart-immunizations/Library/WHOConcepts)
+ERROR: Library/WHOConcepts: Library.relatedArtifact[4].resource: Canonical URL 'http://hl7.org/fhir/sid/ciel' does not resolve
+ERROR: /github/workspace/input/resources/library/WHOConcepts: URL Mismatch http://smart.who.int/ig/smart-immunizations-measles/Library/WHOConcepts vs http://smart.who.int/ig/smart-immunizations/Library/WHOConcepts

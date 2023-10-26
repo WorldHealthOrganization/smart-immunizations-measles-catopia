@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VaccineTypes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-ICD11.html\"><code>http://id.who.int/icd11/mms</code></a></li></ul></div>"
+  },
+  "url" : "http://moh.catopia/ig/smart-immunizations-measles/ValueSet/VaccineTypes",
+  "version" : "0.1.0",
+  "name" : "VaccineTypes",
+  "title" : "Vaccine Type ValueSet",
+  "status" : "draft",
+  "date" : "2023-10-25T07:10:05+00:00",
+  "publisher" : "Catopia",
+  "contact" : [{
+    "name" : "Catopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.catopia"
+    }]
+  }],
+  "description" : "Vaccine type Codes, containing the different types of antigens used in vaccine guidelines.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://id.who.int/icd11/mms"
+    }]
+  }
+}

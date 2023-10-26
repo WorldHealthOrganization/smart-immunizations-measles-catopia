@@ -1,0 +1,26 @@
+{
+  "resourceType" : "Medication",
+  "id" : "Vaccine-CatopianMeaslesVac",
+  "meta" : {
+    "profile" : ["http://moh.catopia/ig/smart-immunizations-measles/StructureDefinition/SGVaccineProduct"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"Vaccine-CatopianMeaslesVac\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;Vaccine-CatopianMeaslesVac&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SGVaccineProduct.html\">SGVaccineProduct</a></p></div><p><b>SGMedicationClassification</b>: Measles vaccines <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-ICD11.html\">ICD-11</a>#XM28X5)</span></p><p><b>code</b>: Catopian Pharma Inc. Measles Vaccine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-VaccineProducts.html\">Vaccine Product codes CodeSet</a>#0123456789)</span></p></div>"
+  },
+  "extension" : [{
+    "url" : "http://moh.catopia/ig/smart-immunizations-measles/StructureDefinition/SGMedicationClassification",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://id.who.int/icd11/mms",
+        "code" : "XM28X5"
+      }]
+    }
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://moh.catopia/ig/smart-immunizations-measles/CodeSystem/VaccineProducts",
+      "code" : "0123456789"
+    }]
+  }
+}

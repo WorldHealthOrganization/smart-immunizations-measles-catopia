@@ -1,0 +1,153 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://health.go.ke/ig/smart-immunizations-measles/CodeSystem/IMMZ.C> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "IMMZ.C"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-insensitive code system <code>http://health.go.ke/ig/smart-immunizations-measles/CodeSystem/IMMZ.C</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">DE1<a name=\"IMMZ.C-DE1\"> </a></td><td>Unique identifier</td><td>Unique identifier for the client, according to the policies applicable to each country. There can be more than one unique identifier used to link records (e.g. national ID, health ID, immunization information system ID, medical record ID).</td></tr><tr><td style=\"white-space:nowrap\">DE2<a name=\"IMMZ.C-DE2\"> </a></td><td>Name</td><td>The full name of the client</td></tr><tr><td style=\"white-space:nowrap\">DE3<a name=\"IMMZ.C-DE3\"> </a></td><td>First name</td><td>Client's first name or given name</td></tr><tr><td style=\"white-space:nowrap\">DE3.1<a name=\"IMMZ.C-DE3.461\"> </a></td><td>Middle name</td><td>Client's middle name or given name</td></tr><tr><td style=\"white-space:nowrap\">DE4<a name=\"IMMZ.C-DE4\"> </a></td><td>Family name</td><td>Client's family name or last name</td></tr><tr><td style=\"white-space:nowrap\">DE5<a name=\"IMMZ.C-DE5\"> </a></td><td>Sex</td><td>Documentation of a specific instance of sex information for the client</td></tr><tr><td style=\"white-space:nowrap\">DE6<a name=\"IMMZ.C-DE6\"> </a></td><td>Male</td><td>Client's biological sex is male</td></tr><tr><td style=\"white-space:nowrap\">DE7<a name=\"IMMZ.C-DE7\"> </a></td><td>Female</td><td>Client's biological sex is female</td></tr><tr><td style=\"white-space:nowrap\">DE8<a name=\"IMMZ.C-DE8\"> </a></td><td>Biological sex not specified</td><td>Client's biological sex is not specified</td></tr><tr><td style=\"white-space:nowrap\">DE9<a name=\"IMMZ.C-DE9\"> </a></td><td>Intersex</td><td>Client's biological sex is intersex</td></tr><tr><td style=\"white-space:nowrap\">DE10<a name=\"IMMZ.C-DE10\"> </a></td><td>Date of birth</td><td>Client's date of birth (DOB) if known; if unknown, use assigned DOB for administrative purposes</td></tr><tr><td style=\"white-space:nowrap\">DE13<a name=\"IMMZ.C-DE13\"> </a></td><td>Age</td><td>The client's calculated age (presented as number of years, months, days) based on the date of birth (DOB) and the visit date</td></tr><tr><td style=\"white-space:nowrap\">DE14<a name=\"IMMZ.C-DE14\"> </a></td><td>Mother (multiple)</td><td>The client's mother</td></tr><tr><td style=\"white-space:nowrap\">DE15<a name=\"IMMZ.C-DE15\"> </a></td><td>Mother's full name</td><td>The full name of the client's mother</td></tr><tr><td style=\"white-space:nowrap\">DE16<a name=\"IMMZ.C-DE16\"> </a></td><td>Mother's first name</td><td>First or given name of the client's mother</td></tr><tr><td style=\"white-space:nowrap\">DE16.1<a name=\"IMMZ.C-DE16.461\"> </a></td><td>Mother's Middle name</td><td>Client's middle name or given name</td></tr><tr><td style=\"white-space:nowrap\">DE17<a name=\"IMMZ.C-DE17\"> </a></td><td>Mother's family name</td><td>Family name or last name of the client's mother</td></tr><tr><td style=\"white-space:nowrap\">DE14.f<a name=\"IMMZ.C-DE14.46f\"> </a></td><td>Father's (multiple)</td><td>The client's father</td></tr><tr><td style=\"white-space:nowrap\">DE15.f<a name=\"IMMZ.C-DE15.46f\"> </a></td><td>Father's full name</td><td>The full name of the client's father</td></tr><tr><td style=\"white-space:nowrap\">DE16.f<a name=\"IMMZ.C-DE16.46f\"> </a></td><td>Father's first name</td><td>First or given name of the client's father</td></tr><tr><td style=\"white-space:nowrap\">DE16.1.f<a name=\"IMMZ.C-DE16.461.46f\"> </a></td><td>Father's Middle name</td><td>Client's middle name or given name</td></tr><tr><td style=\"white-space:nowrap\">DE17.f<a name=\"IMMZ.C-DE17.46f\"> </a></td><td>Father's family name</td><td>Family name or last name of the client's father</td></tr><tr><td style=\"white-space:nowrap\">DE18<a name=\"IMMZ.C-DE18\"> </a></td><td>Contact phone number</td><td>Client's phone number</td></tr><tr><td style=\"white-space:nowrap\">DE19<a name=\"IMMZ.C-DE19\"> </a></td><td>Administrative area</td><td>The name of the city/municipality/town/village of where the client lives</td></tr><tr><td style=\"white-space:nowrap\">DE19.1<a name=\"IMMZ.C-DE19.461\"> </a></td><td>County</td><td>County</td></tr><tr><td style=\"white-space:nowrap\">DE19.2<a name=\"IMMZ.C-DE19.462\"> </a></td><td>Sub-County</td><td>Sub-County</td></tr><tr><td style=\"white-space:nowrap\">DE19.3<a name=\"IMMZ.C-DE19.463\"> </a></td><td>Ward</td><td>Ward</td></tr><tr><td style=\"white-space:nowrap\">DE19.4<a name=\"IMMZ.C-DE19.464\"> </a></td><td>CHU</td><td>CHU</td></tr><tr><td style=\"white-space:nowrap\">DE20<a name=\"IMMZ.C-DE20\"> </a></td><td>Active health worker</td><td>Is the client an active and participating health worker. This data element is used mainly for reporting and indicators purposes.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://health.go.ke/ig/smart-immunizations-measles/CodeSystem/IMMZ.C"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "IMMZ_C"] ; # 
+  fhir:title [ fhir:v "IMMZ.C CodeSystem for Data Elements"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-10-26T10:10:22+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Kenya MOH"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Kenya MOH" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://health.go.ke" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "CodeSystem for IMMZ.C Data Elements"] ; # 
+  fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "29"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "DE1" ] ;
+     fhir:display [ fhir:v "Unique identifier" ] ;
+     fhir:definition [ fhir:v "Unique identifier for the client, according to the policies applicable to each country. There can be more than one unique identifier used to link records (e.g. national ID, health ID, immunization information system ID, medical record ID)." ]
+  ] [
+     fhir:code [ fhir:v "DE2" ] ;
+     fhir:display [ fhir:v "Name" ] ;
+     fhir:definition [ fhir:v "The full name of the client" ]
+  ] [
+     fhir:code [ fhir:v "DE3" ] ;
+     fhir:display [ fhir:v "First name" ] ;
+     fhir:definition [ fhir:v "Client's first name or given name" ]
+  ] [
+     fhir:code [ fhir:v "DE3.1" ] ;
+     fhir:display [ fhir:v "Middle name" ] ;
+     fhir:definition [ fhir:v "Client's middle name or given name" ]
+  ] [
+     fhir:code [ fhir:v "DE4" ] ;
+     fhir:display [ fhir:v "Family name" ] ;
+     fhir:definition [ fhir:v "Client's family name or last name" ]
+  ] [
+     fhir:code [ fhir:v "DE5" ] ;
+     fhir:display [ fhir:v "Sex" ] ;
+     fhir:definition [ fhir:v "Documentation of a specific instance of sex information for the client" ]
+  ] [
+     fhir:code [ fhir:v "DE6" ] ;
+     fhir:display [ fhir:v "Male" ] ;
+     fhir:definition [ fhir:v "Client's biological sex is male" ]
+  ] [
+     fhir:code [ fhir:v "DE7" ] ;
+     fhir:display [ fhir:v "Female" ] ;
+     fhir:definition [ fhir:v "Client's biological sex is female" ]
+  ] [
+     fhir:code [ fhir:v "DE8" ] ;
+     fhir:display [ fhir:v "Biological sex not specified" ] ;
+     fhir:definition [ fhir:v "Client's biological sex is not specified" ]
+  ] [
+     fhir:code [ fhir:v "DE9" ] ;
+     fhir:display [ fhir:v "Intersex" ] ;
+     fhir:definition [ fhir:v "Client's biological sex is intersex" ]
+  ] [
+     fhir:code [ fhir:v "DE10" ] ;
+     fhir:display [ fhir:v "Date of birth" ] ;
+     fhir:definition [ fhir:v "Client's date of birth (DOB) if known; if unknown, use assigned DOB for administrative purposes" ]
+  ] [
+     fhir:code [ fhir:v "DE13" ] ;
+     fhir:display [ fhir:v "Age" ] ;
+     fhir:definition [ fhir:v "The client's calculated age (presented as number of years, months, days) based on the date of birth (DOB) and the visit date" ]
+  ] [
+     fhir:code [ fhir:v "DE14" ] ;
+     fhir:display [ fhir:v "Mother (multiple)" ] ;
+     fhir:definition [ fhir:v "The client's mother" ]
+  ] [
+     fhir:code [ fhir:v "DE15" ] ;
+     fhir:display [ fhir:v "Mother's full name" ] ;
+     fhir:definition [ fhir:v "The full name of the client's mother" ]
+  ] [
+     fhir:code [ fhir:v "DE16" ] ;
+     fhir:display [ fhir:v "Mother's first name" ] ;
+     fhir:definition [ fhir:v "First or given name of the client's mother" ]
+  ] [
+     fhir:code [ fhir:v "DE16.1" ] ;
+     fhir:display [ fhir:v "Mother's Middle name" ] ;
+     fhir:definition [ fhir:v "Client's middle name or given name" ]
+  ] [
+     fhir:code [ fhir:v "DE17" ] ;
+     fhir:display [ fhir:v "Mother's family name" ] ;
+     fhir:definition [ fhir:v "Family name or last name of the client's mother" ]
+  ] [
+     fhir:code [ fhir:v "DE14.f" ] ;
+     fhir:display [ fhir:v "Father's (multiple)" ] ;
+     fhir:definition [ fhir:v "The client's father" ]
+  ] [
+     fhir:code [ fhir:v "DE15.f" ] ;
+     fhir:display [ fhir:v "Father's full name" ] ;
+     fhir:definition [ fhir:v "The full name of the client's father" ]
+  ] [
+     fhir:code [ fhir:v "DE16.f" ] ;
+     fhir:display [ fhir:v "Father's first name" ] ;
+     fhir:definition [ fhir:v "First or given name of the client's father" ]
+  ] [
+     fhir:code [ fhir:v "DE16.1.f" ] ;
+     fhir:display [ fhir:v "Father's Middle name" ] ;
+     fhir:definition [ fhir:v "Client's middle name or given name" ]
+  ] [
+     fhir:code [ fhir:v "DE17.f" ] ;
+     fhir:display [ fhir:v "Father's family name" ] ;
+     fhir:definition [ fhir:v "Family name or last name of the client's father" ]
+  ] [
+     fhir:code [ fhir:v "DE18" ] ;
+     fhir:display [ fhir:v "Contact phone number" ] ;
+     fhir:definition [ fhir:v "Client's phone number" ]
+  ] [
+     fhir:code [ fhir:v "DE19" ] ;
+     fhir:display [ fhir:v "Administrative area" ] ;
+     fhir:definition [ fhir:v "The name of the city/municipality/town/village of where the client lives" ]
+  ] [
+     fhir:code [ fhir:v "DE19.1" ] ;
+     fhir:display [ fhir:v "County" ] ;
+     fhir:definition [ fhir:v "County" ]
+  ] [
+     fhir:code [ fhir:v "DE19.2" ] ;
+     fhir:display [ fhir:v "Sub-County" ] ;
+     fhir:definition [ fhir:v "Sub-County" ]
+  ] [
+     fhir:code [ fhir:v "DE19.3" ] ;
+     fhir:display [ fhir:v "Ward" ] ;
+     fhir:definition [ fhir:v "Ward" ]
+  ] [
+     fhir:code [ fhir:v "DE19.4" ] ;
+     fhir:display [ fhir:v "CHU" ] ;
+     fhir:definition [ fhir:v "CHU" ]
+  ] [
+     fhir:code [ fhir:v "DE20" ] ;
+     fhir:display [ fhir:v "Active health worker" ] ;
+     fhir:definition [ fhir:v "Is the client an active and participating health worker. This data element is used mainly for reporting and indicators purposes." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

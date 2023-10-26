@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSMeaslesVaccineProducts",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"CodeSystem-VaccineProducts.html\"><code>http://moh.catopia/ig/smart-immunizations-measles/CodeSystem/VaccineProducts</code></a> where classification  =  XM28X5</li></ul></div>"
+  },
+  "url" : "http://moh.catopia/ig/smart-immunizations-measles/ValueSet/VSMeaslesVaccineProducts",
+  "version" : "0.1.0",
+  "name" : "VSMeaslesVaccineProducts",
+  "title" : "MeaslesVaccine Products ValueSet",
+  "status" : "draft",
+  "date" : "2023-10-25T07:10:05+00:00",
+  "publisher" : "Catopia",
+  "contact" : [{
+    "name" : "Catopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.catopia"
+    }]
+  }],
+  "description" : "Vaccine Product Codes - representing the codes of the products currently available.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://moh.catopia/ig/smart-immunizations-measles/CodeSystem/VaccineProducts",
+      "filter" : [{
+        "property" : "classification",
+        "op" : "=",
+        "value" : "XM28X5"
+      }]
+    }]
+  }
+}

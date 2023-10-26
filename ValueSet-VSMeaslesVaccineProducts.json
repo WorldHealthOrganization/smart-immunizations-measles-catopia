@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSMeaslesVaccineProducts",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-VaccineProducts.html\"><code>http://health.go.ke/ig/smart-immunizations-measles/CodeSystem/VaccineProducts</code></a></li></ul></div>"
+  },
+  "url" : "http://health.go.ke/ig/smart-immunizations-measles/ValueSet/VSMeaslesVaccineProducts",
+  "version" : "0.1.0",
+  "name" : "VSMeaslesVaccineProducts",
+  "title" : "MeaslesVaccine Products ValueSet",
+  "status" : "draft",
+  "date" : "2023-10-26T10:10:22+00:00",
+  "publisher" : "Kenya MOH",
+  "contact" : [{
+    "name" : "Kenya MOH",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://health.go.ke"
+    }]
+  }],
+  "description" : "Vaccine Product Codes - representing the codes of the products currently available.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://health.go.ke/ig/smart-immunizations-measles/CodeSystem/VaccineProducts"
+    }]
+  }
+}

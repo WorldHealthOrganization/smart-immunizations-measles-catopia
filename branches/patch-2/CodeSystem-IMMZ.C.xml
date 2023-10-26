@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="IMMZ.C"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-insensitive code system <code>http://health.go.ke/ig/smart-immunizations-measles/CodeSystem/IMMZ.C</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">DE1<a name="IMMZ.C-DE1"> </a></td><td>Unique identifier</td><td>Unique identifier for the client, according to the policies applicable to each country. There can be more than one unique identifier used to link records (e.g. national ID, health ID, immunization information system ID, medical record ID).</td></tr><tr><td style="white-space:nowrap">DE2<a name="IMMZ.C-DE2"> </a></td><td>Name</td><td>The full name of the client</td></tr><tr><td style="white-space:nowrap">DE3<a name="IMMZ.C-DE3"> </a></td><td>First name</td><td>Client's first name or given name</td></tr><tr><td style="white-space:nowrap">DE3.1<a name="IMMZ.C-DE3.461"> </a></td><td>Middle name</td><td>Client's middle name or given name</td></tr><tr><td style="white-space:nowrap">DE4<a name="IMMZ.C-DE4"> </a></td><td>Family name</td><td>Client's family name or last name</td></tr><tr><td style="white-space:nowrap">DE5<a name="IMMZ.C-DE5"> </a></td><td>Sex</td><td>Documentation of a specific instance of sex information for the client</td></tr><tr><td style="white-space:nowrap">DE6<a name="IMMZ.C-DE6"> </a></td><td>Male</td><td>Client's biological sex is male</td></tr><tr><td style="white-space:nowrap">DE7<a name="IMMZ.C-DE7"> </a></td><td>Female</td><td>Client's biological sex is female</td></tr><tr><td style="white-space:nowrap">DE8<a name="IMMZ.C-DE8"> </a></td><td>Biological sex not specified</td><td>Client's biological sex is not specified</td></tr><tr><td style="white-space:nowrap">DE9<a name="IMMZ.C-DE9"> </a></td><td>Intersex</td><td>Client's biological sex is intersex</td></tr><tr><td style="white-space:nowrap">DE10<a name="IMMZ.C-DE10"> </a></td><td>Date of birth</td><td>Client's date of birth (DOB) if known; if unknown, use assigned DOB for administrative purposes</td></tr><tr><td style="white-space:nowrap">DE13<a name="IMMZ.C-DE13"> </a></td><td>Age</td><td>The client's calculated age (presented as number of years, months, days) based on the date of birth (DOB) and the visit date</td></tr><tr><td style="white-space:nowrap">DE14<a name="IMMZ.C-DE14"> </a></td><td>Mother (multiple)</td><td>The client's mother</td></tr><tr><td style="white-space:nowrap">DE15<a name="IMMZ.C-DE15"> </a></td><td>Mother's full name</td><td>The full name of the client's mother</td></tr><tr><td style="white-space:nowrap">DE16<a name="IMMZ.C-DE16"> </a></td><td>Mother's first name</td><td>First or given name of the client's mother</td></tr><tr><td style="white-space:nowrap">DE16.1<a name="IMMZ.C-DE16.461"> </a></td><td>Mother's Middle name</td><td>Client's middle name or given name</td></tr><tr><td style="white-space:nowrap">DE17<a name="IMMZ.C-DE17"> </a></td><td>Mother's family name</td><td>Family name or last name of the client's mother</td></tr><tr><td style="white-space:nowrap">DE14.f<a name="IMMZ.C-DE14.46f"> </a></td><td>Father's (multiple)</td><td>The client's father</td></tr><tr><td style="white-space:nowrap">DE15.f<a name="IMMZ.C-DE15.46f"> </a></td><td>Father's full name</td><td>The full name of the client's father</td></tr><tr><td style="white-space:nowrap">DE16.f<a name="IMMZ.C-DE16.46f"> </a></td><td>Father's first name</td><td>First or given name of the client's father</td></tr><tr><td style="white-space:nowrap">DE16.1.f<a name="IMMZ.C-DE16.461.46f"> </a></td><td>Father's Middle name</td><td>Client's middle name or given name</td></tr><tr><td style="white-space:nowrap">DE17.f<a name="IMMZ.C-DE17.46f"> </a></td><td>Father's family name</td><td>Family name or last name of the client's father</td></tr><tr><td style="white-space:nowrap">DE18<a name="IMMZ.C-DE18"> </a></td><td>Contact phone number</td><td>Client's phone number</td></tr><tr><td style="white-space:nowrap">DE19<a name="IMMZ.C-DE19"> </a></td><td>Administrative area</td><td>The name of the city/municipality/town/village of where the client lives</td></tr><tr><td style="white-space:nowrap">DE19.1<a name="IMMZ.C-DE19.461"> </a></td><td>County</td><td>County</td></tr><tr><td style="white-space:nowrap">DE19.2<a name="IMMZ.C-DE19.462"> </a></td><td>Sub-County</td><td>Sub-County</td></tr><tr><td style="white-space:nowrap">DE19.3<a name="IMMZ.C-DE19.463"> </a></td><td>Ward</td><td>Ward</td></tr><tr><td style="white-space:nowrap">DE19.4<a name="IMMZ.C-DE19.464"> </a></td><td>CHU</td><td>CHU</td></tr><tr><td style="white-space:nowrap">DE20<a name="IMMZ.C-DE20"> </a></td><td>Active health worker</td><td>Is the client an active and participating health worker. This data element is used mainly for reporting and indicators purposes.</td></tr></table></div>
+  </text>
+  <url value="http://health.go.ke/ig/smart-immunizations-measles/CodeSystem/IMMZ.C"/>
+  <version value="0.1.0"/>
+  <name value="IMMZ_C"/>
+  <title value="IMMZ.C CodeSystem for Data Elements"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-10-26T10:10:22+00:00"/>
+  <publisher value="Kenya MOH"/>
+  <contact>
+    <name value="Kenya MOH"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://health.go.ke"/>
+    </telecom>
+  </contact>
+  <description value="CodeSystem for IMMZ.C Data Elements"/>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="29"/>
+  <concept>
+    <code value="DE1"/>
+    <display value="Unique identifier"/>
+    <definition value="Unique identifier for the client, according to the policies applicable to each country. There can be more than one unique identifier used to link records (e.g. national ID, health ID, immunization information system ID, medical record ID)."/>
+  </concept>
+  <concept>
+    <code value="DE2"/>
+    <display value="Name"/>
+    <definition value="The full name of the client"/>
+  </concept>
+  <concept>
+    <code value="DE3"/>
+    <display value="First name"/>
+    <definition value="Client's first name or given name"/>
+  </concept>
+  <concept>
+    <code value="DE3.1"/>
+    <display value="Middle name"/>
+    <definition value="Client's middle name or given name"/>
+  </concept>
+  <concept>
+    <code value="DE4"/>
+    <display value="Family name"/>
+    <definition value="Client's family name or last name"/>
+  </concept>
+  <concept>
+    <code value="DE5"/>
+    <display value="Sex"/>
+    <definition value="Documentation of a specific instance of sex information for the client"/>
+  </concept>
+  <concept>
+    <code value="DE6"/>
+    <display value="Male"/>
+    <definition value="Client's biological sex is male"/>
+  </concept>
+  <concept>
+    <code value="DE7"/>
+    <display value="Female"/>
+    <definition value="Client's biological sex is female"/>
+  </concept>
+  <concept>
+    <code value="DE8"/>
+    <display value="Biological sex not specified"/>
+    <definition value="Client's biological sex is not specified"/>
+  </concept>
+  <concept>
+    <code value="DE9"/>
+    <display value="Intersex"/>
+    <definition value="Client's biological sex is intersex"/>
+  </concept>
+  <concept>
+    <code value="DE10"/>
+    <display value="Date of birth"/>
+    <definition value="Client's date of birth (DOB) if known; if unknown, use assigned DOB for administrative purposes"/>
+  </concept>
+  <concept>
+    <code value="DE13"/>
+    <display value="Age"/>
+    <definition value="The client's calculated age (presented as number of years, months, days) based on the date of birth (DOB) and the visit date"/>
+  </concept>
+  <concept>
+    <code value="DE14"/>
+    <display value="Mother (multiple)"/>
+    <definition value="The client's mother"/>
+  </concept>
+  <concept>
+    <code value="DE15"/>
+    <display value="Mother's full name"/>
+    <definition value="The full name of the client's mother"/>
+  </concept>
+  <concept>
+    <code value="DE16"/>
+    <display value="Mother's first name"/>
+    <definition value="First or given name of the client's mother"/>
+  </concept>
+  <concept>
+    <code value="DE16.1"/>
+    <display value="Mother's Middle name"/>
+    <definition value="Client's middle name or given name"/>
+  </concept>
+  <concept>
+    <code value="DE17"/>
+    <display value="Mother's family name"/>
+    <definition value="Family name or last name of the client's mother"/>
+  </concept>
+  <concept>
+    <code value="DE14.f"/>
+    <display value="Father's (multiple)"/>
+    <definition value="The client's father"/>
+  </concept>
+  <concept>
+    <code value="DE15.f"/>
+    <display value="Father's full name"/>
+    <definition value="The full name of the client's father"/>
+  </concept>
+  <concept>
+    <code value="DE16.f"/>
+    <display value="Father's first name"/>
+    <definition value="First or given name of the client's father"/>
+  </concept>
+  <concept>
+    <code value="DE16.1.f"/>
+    <display value="Father's Middle name"/>
+    <definition value="Client's middle name or given name"/>
+  </concept>
+  <concept>
+    <code value="DE17.f"/>
+    <display value="Father's family name"/>
+    <definition value="Family name or last name of the client's father"/>
+  </concept>
+  <concept>
+    <code value="DE18"/>
+    <display value="Contact phone number"/>
+    <definition value="Client's phone number"/>
+  </concept>
+  <concept>
+    <code value="DE19"/>
+    <display value="Administrative area"/>
+    <definition value="The name of the city/municipality/town/village of where the client lives"/>
+  </concept>
+  <concept>
+    <code value="DE19.1"/>
+    <display value="County"/>
+    <definition value="County"/>
+  </concept>
+  <concept>
+    <code value="DE19.2"/>
+    <display value="Sub-County"/>
+    <definition value="Sub-County"/>
+  </concept>
+  <concept>
+    <code value="DE19.3"/>
+    <display value="Ward"/>
+    <definition value="Ward"/>
+  </concept>
+  <concept>
+    <code value="DE19.4"/>
+    <display value="CHU"/>
+    <definition value="CHU"/>
+  </concept>
+  <concept>
+    <code value="DE20"/>
+    <display value="Active health worker"/>
+    <definition value="Is the client an active and participating health worker. This data element is used mainly for reporting and indicators purposes."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,13 @@
+{
+  "url" : "http://moh.catopia/ig/smart-immunizations-measles/ImplementationGuide/catopia.fhir.smart-immunizations-measles",
+  "name" : "SMART",
+  "package-id" : "catopia.fhir.smart-immunizations-measles",
+  "ig-ver" : "0.1.0",
+  "date" : "Wed, 25 Oct, 2023 07:10:05 +0000",
+  "errs" : 37,
+  "warnings" : 41,
+  "hints" : 7,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 3943118776
+}
