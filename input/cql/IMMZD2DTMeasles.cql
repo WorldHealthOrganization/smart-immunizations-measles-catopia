@@ -194,6 +194,7 @@ define "Needs Supplementary MCV Dose":
 define "First MCV Dose Administered to Patient":
 	if "High Transmission Setting"
 	then Last("MCV Doses Administered to Patient" I where I.occurrence after Patient.birthDate + 18 months)
+	else null
 	//else Last("MCV Doses Administered to Patient" I where I.occurrence after Patient.birthDate + 18 months)
 /**
  * @dataElement Date first MCV dose administered
